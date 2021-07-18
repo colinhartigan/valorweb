@@ -1,21 +1,21 @@
 {
   "files": {
     "main.css": "/valorweb/static/css/main.6dea0f05.chunk.css",
-    "main.js": "/valorweb/static/js/main.bc1a18a0.chunk.js",
-    "main.js.map": "/valorweb/static/js/main.bc1a18a0.chunk.js.map",
+    "main.js": "/valorweb/static/js/main.13825c58.chunk.js",
+    "main.js.map": "/valorweb/static/js/main.13825c58.chunk.js.map",
     "runtime-main.js": "/valorweb/static/js/runtime-main.ce3dc485.js",
     "runtime-main.js.map": "/valorweb/static/js/runtime-main.ce3dc485.js.map",
-    "static/js/2.ded4bb2e.chunk.js": "/valorweb/static/js/2.ded4bb2e.chunk.js",
-    "static/js/2.ded4bb2e.chunk.js.map": "/valorweb/static/js/2.ded4bb2e.chunk.js.map",
+    "static/js/2.afc195e4.chunk.js": "/valorweb/static/js/2.afc195e4.chunk.js",
+    "static/js/2.afc195e4.chunk.js.map": "/valorweb/static/js/2.afc195e4.chunk.js.map",
     "index.html": "/valorweb/index.html",
     "static/css/main.6dea0f05.chunk.css.map": "/valorweb/static/css/main.6dea0f05.chunk.css.map",
-    "static/js/2.ded4bb2e.chunk.js.LICENSE.txt": "/valorweb/static/js/2.ded4bb2e.chunk.js.LICENSE.txt",
+    "static/js/2.afc195e4.chunk.js.LICENSE.txt": "/valorweb/static/js/2.afc195e4.chunk.js.LICENSE.txt",
     "static/media/DINNextLTPro-Regular.405c43f9.woff2": "/valorweb/static/media/DINNextLTPro-Regular.405c43f9.woff2"
   },
   "entrypoints": [
     "static/js/runtime-main.ce3dc485.js",
-    "static/js/2.ded4bb2e.chunk.js",
+    "static/js/2.afc195e4.chunk.js",
     "static/css/main.6dea0f05.chunk.css",
-    "static/js/main.bc1a18a0.chunk.js"
+    "static/js/main.13825c58.chunk.js"
   ]
 }
