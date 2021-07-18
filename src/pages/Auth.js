@@ -166,7 +166,7 @@ class Auth extends React.Component {
             .then(response => response.json())
             .then(function(response) {
                 console.log(response);
-                if (response.status == 200) {
+                if (response.status === 200) {
                     console.log(response);
                     this.setState({
                         processing: false,
