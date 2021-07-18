@@ -3,7 +3,7 @@ import React from 'react';
 //utilities
 import { ThemeProvider, createTheme } from '@material-ui/core/styles';
 import CssBaseline from '@material-ui/core/CssBaseline';
-import { BrowserRouter as Switch, Route, HashRouter } from "react-router-dom";
+import { BrowserRouter as Switch, Route, HashRouter, Redirect } from "react-router-dom";
 
 //fonts
 import DINNextLTProRegular from './fonts/DINNextLTPro-Regular.woff2';
@@ -81,6 +81,9 @@ function Routes() {
     return (
         <Switch>
             <Route exact path="/">
+                <Redirect to="/valorweb" />
+            </Route>
+            <Route exact path="/valorweb">
                 <Auth redir={params.get("redir")} region={params.get("region")} playername={params.get("playername")} playertag={params.get("playertag")} type={params.get("type")}/>
             </Route>
         </Switch>

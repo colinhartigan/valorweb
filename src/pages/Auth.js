@@ -162,11 +162,15 @@ class Auth extends React.Component {
                 password: this.state['riot-password'],   
             }),
         };
-        fetch(`http://127.0.0.1:5000${this.props.redir}?region=${this.props.region}`, options)
+        fetch(`https://valorant-rpc.herokuapp.com${this.props.redir}?region=${this.props.region}`, options)
             .then(response => response.json())
             .then(function(response) {
-                if (response.status === 200) {
-                    console.log(response)
+                console.log(response);
+                if (response.status == 200) {
+                    console.log(response);
+                    this.setState({
+                        processing: false,
+                    });
                 }
             });
     }
@@ -189,7 +193,7 @@ class Auth extends React.Component {
         } else {
             this.setState({
                 actionType: {
-                    "label": `do something i guess???`,
+                    "label": `do absolutely nothing.`,
                 }
             });
         }
@@ -226,7 +230,7 @@ class Auth extends React.Component {
                                 </FormControl>
                             </form>
                             <div>
-                                <Typography variant="body1" className={classes.footerText}>Your credentials are not saved or sent anywhere besides Riot Games. Check out the <a href="https://github.com/colinhartigan/valorant-rpc" style={{ color: "lightgrey" }}>authentication source code</a> for more information.</Typography>
+                                <Typography variant="body1" className={classes.footerText}>Your credentials are not saved or sent anywhere besides Riot Games. Check out the <a href="https://github.com/colinhartigan/valorweb" style={{ color: "lightgrey" }}>authentication source code</a> for more information.</Typography>
                             </div>
                         </div>
                     </Paper>
