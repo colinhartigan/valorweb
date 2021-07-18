@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/valorweb/static/css/main.6dea0f05.chunk.css",
-    "main.js": "/valorweb/static/js/main.13825c58.chunk.js",
-    "main.js.map": "/valorweb/static/js/main.13825c58.chunk.js.map",
+    "main.js": "/valorweb/static/js/main.d77fc187.chunk.js",
+    "main.js.map": "/valorweb/static/js/main.d77fc187.chunk.js.map",
     "runtime-main.js": "/valorweb/static/js/runtime-main.ce3dc485.js",
     "runtime-main.js.map": "/valorweb/static/js/runtime-main.ce3dc485.js.map",
     "static/js/2.afc195e4.chunk.js": "/valorweb/static/js/2.afc195e4.chunk.js",
@@ -16,6 +16,6 @@
     "static/js/runtime-main.ce3dc485.js",
     "static/js/2.afc195e4.chunk.js",
     "static/css/main.6dea0f05.chunk.css",
-    "static/js/main.13825c58.chunk.js"
+    "static/js/main.d77fc187.chunk.js"
   ]
 }
