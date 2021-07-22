@@ -164,14 +164,11 @@ class Auth extends React.Component {
         };
         fetch(`https://valorant-rpc.herokuapp.com${this.props.redir}?region=${this.props.region}`, options)
             .then(response => response.json())
-            .then(function(response) {
-                console.log(response);
-                if (response.status === 200) {
-                    console.log(response);
-                    this.setState({
-                        processing: false,
-                    });
-                }
+            .then((response) => {
+                console.log(response)
+                this.setState({
+                    processing: false,
+                })
             });
     }
 
